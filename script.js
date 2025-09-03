@@ -25,7 +25,7 @@ function loadStep() {
   inputContainer.innerHTML = "";
 
   if (step === 0) {
-    typeText("What is your name?", () => {
+    typeText("Welcome to the 2025 first day of school quiz." /n + "What is your name?", () => {
       const input = document.createElement("input");
       input.type = "text";
       input.placeholder = "Enter your name";
