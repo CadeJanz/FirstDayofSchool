@@ -117,7 +117,7 @@ function loadStep() {
       const btn = document.createElement("button");
       btn.textContent = "A: DQ aka egghead";
       btn.onclick = () => {
-        typeText("Have a great first day at school. You are a really special girl and will do fantastic and I know it. I hope you make some good friends who will treat you as you should be treated.", null);
+        typeText("You're such a special girl and are going to do to amazing at school—you're seriously the smartest and most beautiful girl I know. I'm so proud of you, and I hope you find some amazing friends who treat you the way you should be.", null);
       };
       optionsEl.appendChild(btn);
     });
