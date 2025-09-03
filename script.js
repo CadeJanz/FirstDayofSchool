@@ -25,7 +25,7 @@ function loadStep() {
   inputContainer.innerHTML = "";
 
   if (step === 0) {
-    typeText("Welcome to the 2025 first day of school quiz." /n + "What is your name?", () => {
+    typeText("Welcome to the first day of school quiz. What is your name?", () => {
       const input = document.createElement("input");
       input.type = "text";
       input.placeholder = "Enter your name";
@@ -117,7 +117,7 @@ function loadStep() {
       const btn = document.createElement("button");
       btn.textContent = "A: DQ aka egghead";
       btn.onclick = () => {
-        typeText("Correct! 🎉 Quiz Complete.", null);
+        typeText("Have a great first day at school. You are a really special girl and will do fantastic and I know it. I hope you make some good friends who will treat you as you should be treated.", null);
       };
       optionsEl.appendChild(btn);
     });
